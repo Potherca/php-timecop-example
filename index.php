@@ -18,7 +18,6 @@ $url = htmlspecialchars((isset($_SERVER['HTTPS']) ? 'https' : 'http') . '://'.$_
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
     <style>
         h1 img {
