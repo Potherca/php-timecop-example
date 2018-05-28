@@ -15,7 +15,8 @@ $url = htmlspecialchars((isset($_SERVER['HTTPS']) ? 'https' : 'http') . '://'.$_
 
     <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGgAAABoBAMAAADvMqiSAAAAGFBMVEVHcEw6mVXgR1IDBgM0f0e+QUgfUy6DST/kPdT8AAAAAXRSTlMAQObYZgAAAaxJREFUWMPtmMFqwzAMhjUyehc1eQBfdjUo9DxT0/NwS3vtcMkbjL3+gDWxk9mO7YUujPyUYpd8yFIVIwkgJM3fIFsrlANt1EAHzc/uvvUyN6WkYkx2X5qf7N5P3SRKdMU0Pw1+QHUdMzjWTwjxdcA8YxLEBrZkGoR13JAfwmvUUADa22hjMsSipwtA9nxPJdB7BrSPxSEE9UHHHEhEgjcrxCgS8RCEj4NMkSVRYukXkJN6rLXS/Nyvo1BNVpof+3Xckh/azQ/VRPc/DyrNj11GT1ry3eWbCUjkQ3UJxJYNrT4t2CfnjjgkQ41TpgReDadyMSQAeIGWDl0un0Nd7uL8pVuOnvgAgEYyvH9CaaT6J5ihNctXn1af/odPbdeQbTQ/p13LiEx5Sjc5U723VIgeDWX2GgVQn9JFUE6ntu2grJ6wBDIdlNPn9jVDTkdtC4303n1roSYZMvbVrpLnEeTcB03i5MM4tRNUaTMWQy4EdJOTEDPkng6gol2rYpBSLdHQEEBFRDsyjjQ/utvv9ksMJ0c0ltsTdhLjGVUCJDzjsAlITA/h3J7w74aCXwzSsw37s73BAAAAAElFTkSuQmCC">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css" integrity="sha256-90Y+fvi28WF+3jKH4tHEkoQ9WLeFKJjpvCPNOtU9ZvU=" crossorigin="anonymous" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 
@@ -25,7 +26,7 @@ $url = htmlspecialchars((isset($_SERVER['HTTPS']) ? 'https' : 'http') . '://'.$_
             min-height: 4em;
         }
         .message-body pre {
-            background-color: #f5f5f5;
+            background-color: #002B36;
         }
         .xdebug-var-dump {
             padding: 0;
