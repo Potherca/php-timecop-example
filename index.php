@@ -29,9 +29,6 @@ $url = htmlspecialchars((isset($_SERVER['HTTPS']) ? 'https' : 'http') . '://'.$_
         .message-body pre {
             background-color: #002B36;
         }
-        .xdebug-var-dump {
-            padding: 0;
-        }
     </style>
 </head>
 <body>
