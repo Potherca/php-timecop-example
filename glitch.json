@@ -1,0 +1,9 @@
+{
+  "install": "bash ./create-timecop-php-module.sh /app/.data",
+  "start": "php -d 'extension=/app/.data/php-timecop/modules/timecop.so' -S 0.0.0.0:8080",
+  "watch": {
+    "ignore": [
+      "logs"
+    ]
+  }
+}
