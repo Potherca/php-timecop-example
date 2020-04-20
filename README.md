@@ -3,6 +3,8 @@
 > _"There is never enough time."_
 > ~ Max Walker
 
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b/remix-button.svg)](https://glitch.com/edit/#!/remix/php-timecop)
+
 ## Introduction
 
 The [php-timecop](https://github.com/hnw/php-timecop) PHP extension
@@ -13,6 +15,10 @@ It provides "time travel" and "time freezing" capabilities.
 This can be very useful when testing code that has time-sensitive functionality.
 
 This project offers examples demonstrating how PHP TimeCop works.
+
+It can be seen in action at https://php-timecop.glitch.me/
+
+To play around with it, [remix this project on Glitch](https://glitch.com/edit/#!/remix/php-timecop).
 
 ## Usage
 
